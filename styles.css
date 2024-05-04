@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #bcbcbc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Agregar margen inferior para separar del resto del contenido */
+}
+
+#searchInput {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+#searchBar {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+#searchBar:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+table {
+    width: 200px; /* Ajustar el ancho de la tabla según tus necesidades */
+    border-collapse: collapse;
+    margin-right: auto; /* Mover la tabla al lado derecho */
+    margin-left: 20px; /* Agregar un margen a la derecha para separar del resto del contenido */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
