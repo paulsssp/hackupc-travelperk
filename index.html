@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travelperk</title>
@@ -15,9 +15,12 @@
     <div class="search-container">
         <input type="text" id="searchInput" placeholder="Write ID">
         <button onclick="search()" id="searchBar">Search</button>
+        <button onclick="writeNext()" id="Next">-></button>
     </div>
+    <p id="changingEvent"></p>
+    <p id="changingDate"></p>
+    <a id="changingUrl"></a>
 
-    <title>Table Example</title>
     <table id="myTable">
         <thead>
             <tr>
