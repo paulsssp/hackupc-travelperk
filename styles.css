@@ -60,3 +60,18 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
+
+#Next {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #5b5b5b;
+    color: #fff;
+    border: 1px solid #5b5b5b;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+#Next:hover {
+    background-color: #5b5b5b;
+    border-color: #5b5b5b;
+}
